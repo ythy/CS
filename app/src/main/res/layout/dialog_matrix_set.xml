@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="260dp"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical" 
+    android:gravity="right">
+    
+     <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+     
+	<Button android:id="@+id/btnSave" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" 
+	    android:background="@drawable/save" android:layout_marginRight="10dp" />
+	<LinearLayout android:layout_marginTop="10dp" android:gravity="center_vertical"
+		android:orientation="horizontal"  android:layout_width="match_parent" android:layout_height="wrap_content" >
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set1"/>		
+		<EditText  android:id="@+id/etX1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true"  android:inputType="number"/>
+		<EditText  android:id="@+id/etY1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true" android:inputType="number"/>
+		<EditText  android:id="@+id/etWidth1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true" android:inputType="number"/>
+		<EditText  android:id="@+id/etHeight1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true" android:inputType="number"/>
+	</LinearLayout>
+	<LinearLayout android:layout_marginTop="10dp" android:gravity="center_vertical"
+		android:orientation="horizontal"  android:layout_width="match_parent" android:layout_height="wrap_content" >
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set2"/>		
+		<EditText  android:id="@+id/etX2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true"  android:inputType="number"/>
+		<EditText  android:id="@+id/etY2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true" android:inputType="number"/>
+		<EditText  android:id="@+id/etWidth2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true" android:inputType="number"/>
+		<EditText  android:id="@+id/etHeight2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true" android:inputType="number"/>
+	</LinearLayout>	
+	<LinearLayout android:layout_marginTop="10dp" android:gravity="center_vertical"
+		android:orientation="horizontal"  android:layout_width="match_parent" android:layout_height="wrap_content" >
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set3"/>		
+		<EditText  android:id="@+id/etX3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true"  android:inputType="number"/>
+		<EditText  android:id="@+id/etY3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true" android:inputType="number"/>
+		<EditText  android:id="@+id/etWidth3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true" android:inputType="number"/>
+		<EditText  android:id="@+id/etHeight3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"
+		    		android:singleLine="true" android:inputType="number"/>
+	</LinearLayout>	
+	<LinearLayout android:layout_marginTop="10dp"
+		android:orientation="horizontal"  android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_horizontal">
+		<Button android:id="@+id/btnOk" android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:background="@drawable/button_normal" android:text="@android:string/ok"/>
+	</LinearLayout>
+
+</LinearLayout>

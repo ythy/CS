@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ivHeader"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="2dp"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:id="@+id/llDespair"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/divline" />
+
+    <TextView
+        android:id="@+id/tvNid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/divline" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:paddingLeft="5dp"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/divline" />
+
+    <TextView
+        android:id="@+id/tvAttr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/divline" />
+
+    <TextView
+        android:id="@+id/tvCost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/divline" />
+
+    <TextView
+        android:id="@+id/tvHP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/divline" />
+
+    <TextView
+        android:id="@+id/tvAttack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/divline" />
+
+    <TextView
+        android:id="@+id/tvDefense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:singleLine="true" />
+
+</LinearLayout>

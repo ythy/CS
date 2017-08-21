@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cardAttr">
+        <item>爱</item>
+        <item>憎</item>
+        <item>力</item>
+    </string-array>
+    <string-array name="cardLevel">
+        <item>8</item>
+        <item>7 </item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+    </string-array>
+     <string-array name="cardExist">
+        <item>N</item>
+        <item>Y</item>
+    </string-array>
+    
+    <string-array name="addType">
+        <item>新增正式图</item>
+        <item>新增临时图</item>
+        <item>更新图/数值 </item>
+        <item>更新附加图</item>
+    </string-array>
+    
+</resources>

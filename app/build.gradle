@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 10
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.mx.cs"
+        minSdkVersion 10
+        targetSdkVersion 10
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/tess-two.tesseract3.01-leptonica1.68-LibJPEG6b.jar')
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     
+     <item
+        android:id="@+id/menu_out"
+        android:orderInCategory="100"
+        android:title="@string/menu_out"/>
+	<item
+        android:id="@+id/menu_header"
+        android:orderInCategory="200"
+        android:title="@string/menu_out_header_img"/>
+	<item
+        android:id="@+id/menu_despair"
+        android:orderInCategory="200"
+        android:title="@string/menu_out_despair"/>
+</menu>
